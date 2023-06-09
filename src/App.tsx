@@ -1,10 +1,12 @@
 import React from "react";
-import Products from "./components/Products";
+import UserRoutes from "./routes/UserRoutes";
+import Navbar from "./components/Navbar/Navbar";
 
 const App = () => {
   return (
     <div>
-      <Products />
+      <Navbar />
+      <UserRoutes />
     </div>
   );
 };
