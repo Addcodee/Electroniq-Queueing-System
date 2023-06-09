@@ -1,10 +1,10 @@
 import React from "react";
 import { Route, Routes } from "react-router";
-import Client from "../pages/Client";
-import HomePage from "../pages/HomePage";
-import Operator from "../pages/Operator";
-import Registrator from "../pages/Registrator";
-import Admin from "../pages/Admin";
+import Client from "../../pages/Client/Client";
+import HomePage from "../../pages/Home/HomePage";
+import Operator from "../../pages/Operator/Operator";
+import Registrator from "../../pages/Registrator/Registrator";
+import Admin from "../../pages/Admin/Admin";
 
 const UserRoutes = () => {
   const USER_ROUTES = [
